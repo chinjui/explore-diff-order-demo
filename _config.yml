@@ -1,6 +1,6 @@
 # Site
 title:              Computational Cost-Aware Control Using Hierarchical Reinforcement Learning
-bio:                ''
+bio:                'An computational cost-efficient RL model applicable to a variety of tasks'
 description:        "An computational cost-efficient RL model applicable to a variety of tasks"
 locale:             en_US
 baseurl: "/Computational-Cost-Aware-Control-Using-Hierarchical-Reinforcement-Learning" # the subpath of your site, e.g. /blog
