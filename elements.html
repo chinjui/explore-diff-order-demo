@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Computational Cost-Aware Control Using Hierarchical Reinforcement Learning
-description: A computational cost-efficient RL agent which is applicable to a wide range of continuous control tasks.
+title: Exploring the Possibility of Generating Music Autoregressively in Non-Chronological Order
+description: Exploring the Possibility of Generating Music Autoregressively in Non-Chronological Order
 sitemap:
     priority: 0.7
     lastmod: 2017-11-02
@@ -11,7 +11,4 @@ sitemap:
   <h1><a>Abstract</a></h1>
 </header>
 
-Deep reinforcement learning (DRL) has been demonstrated to provide promising results in a wide range of challenging decision making and control tasks. More challenging tasks typically require DRL policies with higher complexity, which usually comes with the use of larger deep neural network (DNN) models. However, as the model size increases, the required computational costs also grow dramatically, leading to non-negligible energy concerns for battery-limited mobile robots. In order to reduce
-the overall computational costs required for completing such tasks, in this paper, we propose a cost-aware strategy based on the observation that a control task can usually be decomposed into segments that require different levels of control complexities. Segments requiring higher control complexities can be handled by a larger DNN, while those requiring lower control complexities can be handled by a smaller DNN. To realize this strategy, we propose a hierarchical RL (HRL) framework
-consisting of a master policy and two sub-policies of different sizes. The master policy is trained to take the costs of the sub-policies in terms of the number of floating-point operations (FLOPs) into consideration. It periodically selects a sub-policy that is sufficiently capable of handling the current task segment according to its observation of the environment while minimizing the overall cost of the entire task. In this work, we perform extensive experiments to demonstrate
-that the proposed cost-aware strategy is able to reduce the overall computational costs in a variety of robotic control tasks. In addition, we qualitatively analyze the behaviors of the master policies in different control tasks, and examine whether their decisions conform to the objective of the proposed cost-aware strategy. We further provide a set of ablation analyses to validate our design configurations. 
+In music generation, it is not mandatory to generate musical notes in chronological order as it is done for language models. Even though transformers are commonly used in autoregressive ways to generate tokens from left to right, we can guide transformers to generate notes non-chronologically by rearranging the input order. To realize this idea, we extend an existing representation to allow notes to show up in any order, and experiment with three kinds of orders to compare their behavior. We propose to group tokens related to one note and make our model predict them in one step, which greatly improves the training efficiency. Moreover, we show that gen- erating music non-chronologically allows for user control of the complexity of music.

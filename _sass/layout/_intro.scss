@@ -24,7 +24,7 @@
 		z-index: 1;
 		min-height: 100vh;
 
-		h1 {
+		h1, h2 {
 			font-size: 5rem;
 			line-height: 1;
 		}
@@ -97,7 +97,7 @@
 			@include padding(_size(padding) * 1.5, _size(padding) * 1);
 			min-height: 80vh;
 
-			h1 {
+			h1, h2 {
 				font-size: 3.25rem;
 				line-height: 1.1;
 				margin-bottom: _size(element-margin) * 0.5;

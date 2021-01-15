@@ -1,9 +1,9 @@
 # Site
-title:              Computational Cost-Aware Control Using Hierarchical Reinforcement Learning
-bio:                'An computational cost-efficient RL model applicable to a variety of tasks'
-description:        "An computational cost-efficient RL model applicable to a variety of tasks"
+title:              Generating Music Autoregressively in Non-Chronological Order
+bio:                'Generating Music Autoregressively in Non-Chronological Order'
+description:        ""
 locale:             en_US
-baseurl: "/Computational-Cost-Aware-Control-Using-Hierarchical-Reinforcement-Learning" # the subpath of your site, e.g. /blog
+baseurl: "/Exploring-the-Possibility-of-Generating-Music-Autoregressively-in-Non-Chronological-Order" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Comments

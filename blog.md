@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Computational Cost-Aware Control Using Hierarchical Reinforcement Learning
-description: An computational cost-efficient RL model applicable to a variety of tasks.
+title: Exploring the Possibility of Generating Music Autoregressively in Non-Chronological Order
+description: Exploring the Possibility of Generating Music Autoregressively in Non-Chronological Order
 sitemap:
     priority: 1.0
     lastmod: 2017-11-02
