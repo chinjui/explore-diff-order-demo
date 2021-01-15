@@ -3,7 +3,7 @@ title:              Generating Music Autoregressively in Non-Chronological Order
 bio:                'Generating Music Autoregressively in Non-Chronological Order'
 description:        ""
 locale:             en_US
-baseurl: "/Exploring-the-Possibility-of-Generating-Music-Autoregressively-in-Non-Chronological-Order" # the subpath of your site, e.g. /blog
+baseurl: "/explore-diff-order-demo" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Comments
